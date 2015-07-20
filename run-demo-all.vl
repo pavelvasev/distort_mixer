@@ -1,5 +1,6 @@
 import components.appmix
 import "."
+import "https://github.com/pavelvasev/show_ogurca/tree/master/1-structur"
 
 Scene {
   id: scen
@@ -13,8 +14,8 @@ Scene {
   AppChooser {
     id: chooser
     ctag: "left"
-    apps: ["DemoScene1","DemoScene2"]
-    selectedNumber: 1
+    apps: ["DemoScene1","DemoScene2","Ogurec"]
+    //selectedNumber: 1
 
     Binding {
       target: chooser.app

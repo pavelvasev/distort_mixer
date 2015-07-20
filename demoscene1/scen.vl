@@ -18,6 +18,8 @@ ShowPointsApp {
     colors: {
       var res = [];
       var arr=positions;
+      if (!arr || arr.length == 0) return [];
+
       for (var i=0; i<arr.length; i+=3) {
         var xx = arr[3*i];
         var yy = arr[3*i+1];
