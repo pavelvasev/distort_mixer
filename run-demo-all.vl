@@ -15,7 +15,7 @@ Scene {
     id: chooser
     ctag: "left"
     apps: ["DemoScene1","DemoScene2","Ogurec"]
-    selectedNumber: 1
+//    selectedNumber: 1
 
     Binding {
       target: chooser.app
