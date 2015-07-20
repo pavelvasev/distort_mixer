@@ -1,3 +1,5 @@
+import components.appmix
+
 Item {
   id: scen
 
