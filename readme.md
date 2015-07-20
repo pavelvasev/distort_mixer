@@ -6,22 +6,25 @@
 
 ## Список шейдеров
 
-#### [DenisDistortShader](shaders/Denis.qml) - синус-преобразование из книги Дениса Перевалова
+#### [DenisDistortShader](shaders/Denis.qml)
+Синус-преобразование из книги Дениса Перевалова
 
-- это пример из Mastering openFrameworks
+- пример из Mastering openFrameworks
 https://www.youtube.com/watch?v=7uyqGC5GmDw
 
 - глава 8, пример 06-VertexDeformation 
 https://cloud.mail.ru/public/aa1a8e7d91e8/MasteringOF-Examples-OF0074-VS2010
 
-#### [ZAxisDistortShader](shaders/ZAxis.qml) - "выворачивание" вдоль оси Z 
+#### [ZAxisDistortShader](shaders/ZAxis.qml) 
+"Выворачивание" вдоль оси Z 
 
 Формула: `new = pt / (radius/расстояние до оси Z)^pow`
 
 * `Radius` - радиус сферы. Все точки, бывшие до преобразования вне цилиндра на оси Z указанного радиуса - уйдут внутрь него, все точки что были внутри - выйдут наружу. 
 * `Pow` - степень показателя (radius/расстояние), то есть сила преобразования.. Если он 0 - значит ничего не происходит.
 
-#### [ZPointDistortShader](shaders/ZPoint.qml) - "выворачивание" вокруг точки на оси Z 
+#### [ZPointDistortShader](shaders/ZPoint.qml) 
+"Выворачивание" вокруг точки на оси Z 
 
 Формула: `new = pt / (radius/расстояние до точки)^pow`
 
@@ -29,7 +32,8 @@ https://cloud.mail.ru/public/aa1a8e7d91e8/MasteringOF-Examples-OF0074-VS2010
 * `Pow` - степень показателя (radius/расстояние), то есть сила преобразования. Если он 0 - значит ничего не происходит.
 * `Center` - координаты точки на оси Z.
 
-#### [ExampleDistortShader](shaders/Example.qml) - пример шейдера с 1 параметром
+#### [ExampleDistortShader](shaders/Example.qml)
+Пример шейдера с 1 параметром
 
 ## Пояснение по демо-сцене 
 * Шейдеры можно запускать в цепочке, до 3х штук одновременно. Последующий вертекс-шейдер использует результаты предыдущего. 
