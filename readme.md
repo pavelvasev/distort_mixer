@@ -1,6 +1,6 @@
 # Шейдеры искажения
 
-Denis - синус-преобразование из книги Дениса Перевалова
+[Denis](shaders/Denis.qml) - синус-преобразование из книги Дениса Перевалова
 ``` 
 - это пример из Mastering openFrameworks,
 https://www.youtube.com/watch?v=7uyqGC5GmDw

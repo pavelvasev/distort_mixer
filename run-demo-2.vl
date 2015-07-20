@@ -1,7 +1,5 @@
-import components.csv_loader 
-import components.show_points
-import components.distort
 import components.appmix
+import "."
 
 DemoScene2 {
   id: scen
