@@ -15,7 +15,7 @@ Scene {
     id: chooser
     ctag: "left"
     apps: ["DemoScene1","DemoScene2","Ogurec"]
-    //selectedNumber: 1
+    selectedNumber: 1
 
     Binding {
       target: chooser.app
@@ -28,4 +28,8 @@ Scene {
   DistortMixer {
     id: di
   }
+
+  cameraPos: [-5.035913068633251,-158.88875141845725,216.65631272090206]
+  cameraCenter: [-0.6128345563975706,8.323077388189132,28.96977029796503]
+
 }
