@@ -1,0 +1,32 @@
+import components.csv_loader 
+import components.show_points
+import components.appmix
+import "."
+
+Scene {
+  id: scen
+  shader: di.shader
+
+  Text {
+    text: "Выбор сцены"
+    property var tag: "left"
+  }
+
+  AppChooser {
+    id: chooser
+    ctag: "left"
+    apps: ["DemoScene1","DemoScene2"]
+    selectedNumber: 1
+
+    Binding {
+      target: chooser.app
+      property: "shader"
+      value: di.shader
+    }
+
+  }
+  
+  DistortMixer {
+    id: di
+  }
+}

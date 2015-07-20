@@ -1,0 +1,61 @@
+// Славина оригинальная версия
+
+import components.show_points
+
+Scene {
+  id: theScene
+
+  property var shader
+  
+ShowPointsApp {
+//  Points {
+    id: p
+    positions: d2.output
+    shader: theScene.shader
+    
+//radius:1
+
+    colors: {
+      var res = [];
+      var arr=positions;
+      for (var i=0; i<arr.length; i+=3) {
+        var xx = arr[3*i];
+        var yy = arr[3*i+1];
+        var zz = arr[3*i+2];
+        //res.push( 1 );res.push( 1 );res.push( 0 );
+        //console.log( xx*xx + yy*yy );
+        // на самом деле тут баг. надо не 3*i делать а просто 3. 
+        // но нам это помогает. ибо структура coord.txt такова, что все как раз сходится))
+        
+        if (xx*xx + yy*yy > 2) {
+          res.push( 0 );res.push( 0 );res.push( 1 );
+        }
+        else
+        {
+          res.push( 1 );res.push( 0 );res.push( 0 );
+        }
+        
+      }
+      /// console.log("rrrrrr=",res);
+      return res;
+    }
+  }
+  
+  CsvLoader {
+    file: Qt.resolvedUrl("coord.txt")
+    id:dat
+    Flatten {
+      id: d2
+    }
+  }
+
+  TrimeshOnPoints {
+    pt: p
+    id: trimesh
+    file: Qt.resolvedUrl("triangles.txt")
+    fileParam.visible: false
+    shader: theScene.shader
+    acolorize: 1
+  }
+
+}
