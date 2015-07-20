@@ -1,5 +1,3 @@
-import components.csv_loader 
-import components.show_points
 import components.appmix
 import "."
 
