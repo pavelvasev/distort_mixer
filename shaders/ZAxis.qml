@@ -1,5 +1,3 @@
-import components.show_points
-
 Shader {
     id: p1
 
