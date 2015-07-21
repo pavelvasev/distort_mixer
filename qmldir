@@ -3,6 +3,9 @@ ExampleDistortShader 1.0 shaders/Example.qml
 ZAxisDistortShader 1.0 shaders/ZAxis.qml
 ZPointDistortShader 1.0 shaders/ZPoint.qml
 
+ZComplexDistortShader 1.0 shaders/ZComplex.qml
+MorphingShader 1.0 shaders/Morphing.qml  
+
 DemoScene1 1.0 demoscene1/scen.vl
 DemoScene2 1.0 demoscene2/run-cube2.vl
 

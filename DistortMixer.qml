@@ -18,7 +18,7 @@ Item {
   }  
   
 
-  property var apps: ["DenisDistortShader", "ZAxisDistortShader", "ZPointDistortShader","ExampleDistortShader"]
+  property var apps: ["DenisDistortShader", "ZAxisDistortShader", "ZPointDistortShader","ZComplexDistortShader", "ExampleDistortShader", "MorphingShader"]
   
   AppChooser {
     id: sh
