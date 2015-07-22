@@ -36,5 +36,6 @@ Item {
     id: sh3
     apps: scen.apps    
     objectParent: sh3.paramPlace
+    selectedNumber: 6 // Morphing
   }
 }

@@ -3,16 +3,16 @@ Shader {
 
   ///////////////////////////// выбор функции
   property var funcs: [ 
-  "z = c_sin(z);",
-  "z = c_tan(z);",
-  "z = c_div( vec2(qq,0),z );",
-  "z = c_mul( z,c_add( z, vec2(qq,0) ) );",
-  "z = c_mul( z,vec2(10,10) );",  
-  "z = c_log(z);",
-  "z = c_div( vec2(qq,0), c_log(z) );",
-  "z = c_div( c_log(z), c_sin(z) );",
-  "z = c_div( vec2(1,0), c_sin(z) );",
-  "z = z;",
+  "p = c_sin(p)*qq;",
+  "p = c_tan(p)*qq;",
+  "p = c_div( vec2(qq,0),p );",
+  "p = c_mul( p,c_add( p, vec2(qq,0) ) );",
+  "p = c_mul( p,vec2(10,10) );",  
+  "p = c_log(p)*qq;",
+  "p = c_div( vec2(qq,0), c_log(p) );",
+  "p = c_div( c_log(p), c_sin(p) );",
+  "p = c_div( vec2(1,0), c_sin(p) );",
+  "p = p*qq;",
 
   "EDIT"
   ]
@@ -146,12 +146,13 @@ vec2 c_sin_of_one_over_z(vec2 z) {
 			uniform float qq;
 			
 			void main( void ) {
-			  vec2 z = vec2( gl_Position.x / scaling, gl_Position.y / scaling );
+			  vec2 p = vec2( gl_Position.x / scaling, gl_Position.y / scaling );
 
 			  FUNC
 			  
-			  gl_Position.x = z.x;
-			  gl_Position.y = z.y;
+			  gl_Position.x = p.x;
+			  gl_Position.y = p.y;
+
 //			  gl_Position.x = z.x * radius;
 //			  gl_Position.y = z.y * radius;
 			}
