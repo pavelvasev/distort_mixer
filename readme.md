@@ -4,6 +4,8 @@
 * Для красоты и новых изображений.
 * Чтобы смотреть изнанку объектов, вдруг что новое увидим.
 
+[Прикольные сцены](super-urla.md)
+
 Запуск демо-сцены: http://viewlang.ru/viewlang/scene.html?s=https://github.com/pavelvasev/distort_mixer/blob/master/run-demo-all.vl
 
 Первые действия:
