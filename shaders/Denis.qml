@@ -14,11 +14,19 @@ Shader {
     value: 1
   }    
 
+  Param {
+    id: zcoef
+    text: "Z coef"
+    min: 0; max: 10; step: 0.015
+    value: 0.015
+  }    
+
   property var vertex: "
 
         uniform float sceneTime;
         uniform float custom1; 
         uniform float custom2; 
+        uniform float zcoef; 
         
         void main()
         {
@@ -27,7 +35,7 @@ Shader {
           float distortAmount = custom2;
 
           //Compute value of distortion for current vertex
-          float distort = distortAmount * sin( phase + 0.015 * v.z );
+          float distort = distortAmount * sin( phase + zcoef * v.z );
           
           //Move the position
          	v.x /= 1.0 + distort;
