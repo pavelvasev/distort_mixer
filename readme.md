@@ -4,7 +4,7 @@
 * Для красоты и новых изображений.
 * Чтобы смотреть изнанку объектов, вдруг что новое увидим.
 
-[Прикольные сцены](super-urla.md)
+[Готовые прикольные сцены](super-urla.md) | [Картинки](https://plus.google.com/103760296556580207748/posts/dpi4WW5jesb)
 
 Запуск демо-сцены: http://viewlang.ru/viewlang/scene.html?s=https://github.com/pavelvasev/distort_mixer/blob/master/run-demo-all.vl
 
