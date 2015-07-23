@@ -24,4 +24,12 @@ http://www.youtube.com/watch?v=x5YkG4ZON1w
 [открыть сцену](http://viewlang.ru/viewlang/scene.html?s=https://github.com/pavelvasev/distort_mixer/blob/master/run-demo-all.vl#{"params":{"fixedmix/2/appname":3,"fixedmix/2/Distort-ZAxis-Radius":18,"fixedmix/2/Distort-ZAxis-POW":5,"fixedmix/2/Distort-ZPoint-POW":5,"fixedmix/2/Distort-ZPoint-Center":46,"fixedmix/2/Distort-ZPoint-Radius":24,"cameraPos":[-1.6835185222779603,-1214.7294035777086,331.8714540470581],"fixedmix/2/Distort-ZPoint-sphere":0,"cameraCenter":[2.7509750911051687,-40.64366735523397,-44.52264065111126]}}
 )
 
+#### Просто забавные
+Желудочек, ZAxis.
+[сидим внутри шара, колесом открутить назад] (http://viewlang.ru/viewlang/scene.html?s=https://github.com/pavelvasev/distort_mixer/blob/master/run-demo-all.vl#{"params":{"fixedmix/2/appname":3,"fixedmix/2/Distort-ZAxis-Radius":18,"fixedmix/2/Distort-ZAxis-POW":5,"fixedmix/2/Distort-ZPoint-POW":5,"fixedmix/2/Distort-ZPoint-Center":26,"fixedmix/2/Distort-ZPoint-Radius":44,"cameraPos":[4.995376211795218,-415.2263573793469,-84.53412907083178],"fixedmix/2/Distort-ZPoint-sphere":1,"cameraCenter":[6.528836317379366,-38.16049226034233,45.623985468761376],"fixedmix/tochko-sfery--razmer":3.7,"fixedmix/prozrachnost":68}})
+
+[в начале морфинга](http://viewlang.ru/viewlang/scene.html?s=https://github.com/pavelvasev/distort_mixer/blob/master/run-demo-all.vl#{"params":{"fixedmix/2/appname":3,"fixedmix/2/Distort-ZAxis-Radius":18,"fixedmix/2/Distort-ZAxis-POW":5,"fixedmix/2/Distort-ZPoint-POW":5,"fixedmix/2/Distort-ZPoint-Center":26,"fixedmix/2/Distort-ZPoint-Radius":44,"cameraPos":[-62.54569339315053,-30.768264935993287,-42.798293816183325],"fixedmix/2/Distort-ZPoint-sphere":1,"cameraCenter":[7.123615828507967,-0.6801334980249335,22.112577742879928],"fixedmix/tochko-sfery--razmer":4.1,"fixedmix/prozrachnost":68,"fixedmix/4/Morphing":0.01}})
+
+
+
 
