@@ -18,5 +18,10 @@
 и камера внутрь красной зоны. получается супер-загадочно. А если водить мышкой, чтобы из зоны не вылетать, получается вообще суперэффект. под музыку хорош)
 [открыть сцену](http://viewlang.ru/viewlang/scene.html?s=https://github.com/pavelvasev/distort_mixer/blob/master/run-demo-all.vl#{"params":{"fixedmix/2/appname":1,"fixedmix/2/Z-coef":0.06,"cameraPos":[127.5114552121544,190.8621763818238,1687.064677397255],"fixedmix/2/Radius":1.8,"cameraCenter":[-9.302420176517701,-42.945148607727624,31.809762079879576]}} )
 
+#### Исходная сцена для видео
+http://www.youtube.com/watch?v=x5YkG4ZON1w
+Крутить радиус.
+[открыть сцену](http://viewlang.ru/viewlang/scene.html?s=https://github.com/pavelvasev/distort_mixer/blob/master/run-demo-all.vl#{"params":{"fixedmix/2/appname":3,"fixedmix/2/Distort-ZAxis-Radius":18,"fixedmix/2/Distort-ZAxis-POW":5,"fixedmix/2/Distort-ZPoint-POW":5,"fixedmix/2/Distort-ZPoint-Center":46,"fixedmix/2/Distort-ZPoint-Radius":24,"cameraPos":[-1.6835185222779603,-1214.7294035777086,331.8714540470581],"fixedmix/2/Distort-ZPoint-sphere":0,"cameraCenter":[2.7509750911051687,-40.64366735523397,-44.52264065111126]}}
+)
 
 
