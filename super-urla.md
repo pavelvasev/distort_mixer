@@ -33,5 +33,5 @@ http://www.youtube.com/watch?v=x5YkG4ZON1w
 
 [шпага](http://viewlang.ru/viewlang/scene.html?s=https://github.com/pavelvasev/distort_mixer/blob/master/run-demo-all.vl#{"params":{"fixedmix/2/appname":3,"fixedmix/2/Distort-ZAxis-Radius":22,"fixedmix/2/Distort-ZAxis-POW":2.8,"fixedmix/2/Distort-ZPoint-POW":5,"fixedmix/2/Distort-ZPoint-Center":19.5,"fixedmix/2/Distort-ZPoint-Radius":27,"cameraPos":[-705.4761654362005,394.92393452520736,579.0309609689484],"fixedmix/2/Distort-ZPoint-sphere":1,"cameraCenter":[208.59315015759034,-142.58059333811406,-392.34200634178137],"fixedmix/tochko-sfery--razmer":4.1,"fixedmix/prozrachnost":68,"fixedmix/4/Morphing":1,"fixedmix/3/appname":2,"fixedmix/3/Distort-ZAxis-POW":1.3,"fixedmix/3/Distort-ZAxis-Radius":22,"fixedmix/2/Distort-ZAxis-sphere":1,"fixedmix/3/Distort-ZPoint-POW":0.8,"fixedmix/3/Distort-ZPoint-Center":-37,"fixedmix/3/Distort-ZPoint-Radius":60,"fixedmix/2/Radius":3,"fixedmix/2/Phase":-0.9123889803846894,"fixedmix/2/Z-coef":2.475}})
 
-
+[иглистый объект](http://viewlang.ru/viewlang/scene.html?s=https://github.com/pavelvasev/distort_mixer/blob/master/run-demo-all.vl#{"params":{"cameraPos":[-354.1936178759075,18.429968221267092,-419.5453151460673],"fixedmix/2/appname":1,"fixedmix/2/Z-coef":0.15,"fixedmix/2/Radius":2.7,"fixedmix/tochko-sfery--tip-otobrazheniya":1}})
 
