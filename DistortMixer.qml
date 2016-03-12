@@ -2,11 +2,13 @@ import components.appmix
 
 Item {
   id: scen
+ 
+  property var ctag: "right"
 
   property var shader: [ sh.shader, sh2.shader, sh3.shader ] 
 
   Links {
-    tag: "right"
+    tag: ctag
     text: "Справка по шейдерам"
     height: 30
     values: [ ["readme.md",Qt.resolvedUrl("readme.md")] ]
@@ -14,7 +16,7 @@ Item {
 
   Text {
     text: "Выбор шейдеров"
-    property var tag: "right"
+    property var tag: ctag
   }  
   
 
@@ -24,12 +26,14 @@ Item {
     id: sh
     apps: scen.apps
     objectParent: sh.paramPlace
+    ctag: ctag
   }
 
   AppChooser {
     id: sh2
     apps: scen.apps    
     objectParent: sh2.paramPlace
+    ctag: ctag
   }
 
   AppChooser {
@@ -37,5 +41,6 @@ Item {
     apps: scen.apps    
     objectParent: sh3.paramPlace
     selectedNumber: 6 // Morphing
+    ctag: ctag
   }
 }
